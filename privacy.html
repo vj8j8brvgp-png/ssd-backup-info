@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>プライバシーポリシー | SSD Backup</title>
+<style>
+body { margin: 0; color: #202124; background: #fff; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.85; overflow-wrap: anywhere; }
+main { max-width: 760px; margin: 0 auto; padding: 32px 20px 64px; }
+h1 { font-size: 2rem; line-height: 1.4; } h2 { margin-top: 2rem; font-size: 1.25rem; }
+a { color: #1559ad; text-underline-offset: .2em; } li { margin-bottom: .5rem; }
+code { font-size: .95em; background: #f2f3f5; padding: .1em .25em; border-radius: 3px; }
+</style>
+</head>
+<body>
+<main>
+<h1>プライバシーポリシー</h1>
+<p>SSD Backup は、所有者本人の Mac と Google Drive で利用する個人用バックアップアプリです。このページは、設定完了後に予定しているデータの取り扱いを説明します。現在、Google の認可とバックアップ設定は未完了です。</p>
+<h2>Google データへのアクセスと利用目的</h2>
+<p>Google OAuth の <code>drive.file</code> 権限を使用し、このアプリが作成したバックアップ用ファイルを対象に、一覧取得・読み取り・書き込み・削除を行う設計です。Google Drive から取得するファイル情報やバックアップデータは、バックアップ、復元、整合性確認、保持方針に沿った削除のためだけに利用します。</p>
+<h2>保存と共有</h2>
+<ul>
+<li>バックアップ対象のファイルは、restic により Mac 上で暗号化してから、所有者本人の Google Drive に保存する設計です。</li>
+<li>OAuth トークンなどの認証情報は Mac 上のローカル設定として管理し、この公開ウェブサイトや公開リポジトリには保存しません。</li>
+<li>このアプリで扱う Google ユーザーデータを、販売、広告配信、AI モデルの学習に利用しません。</li>
+<li>バックアップの保存先として Google Drive を利用します。このウェブサイトはバックアップファイルや OAuth トークンを受け取るためのものではありません。</li>
+</ul>
+<h2>保持・削除とアクセスの取り消し</h2>
+<p>バックアップの保持期間は所有者が設定します。不要なバックアップは、保持方針に基づく削除処理、または所有者による Google Drive 上での削除で管理します。Google Drive のゴミ箱に残る場合があり、完全に削除するにはゴミ箱の処理も必要になることがあります。</p>
+<p>所有者は Google アカウントの設定から、このアプリへのアクセス許可を取り消せます。許可を取り消すとバックアップや復元などが利用できなくなる場合がありますが、保存済みのバックアップが自動で削除されるわけではありません。</p>
+<h2>このウェブサイトについて</h2>
+<p>このサイトは GitHub Pages で公開しています。サイト自体には独自の入力フォームやアクセス解析を設置しません。ホスティング事業者である GitHub は、サイト配信やセキュリティのために IP アドレスなどのアクセス情報を処理する場合があります。詳しくは <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub のプライバシー声明</a> をご確認ください。</p>
+<h2>お問い合わせ</h2>
+<p><a href="https://github.com/vj8j8brvgp-png/ssd-backup-info/issues">GitHub Issues</a> をご利用ください。投稿は公開されるため、個人ファイル、認証情報、トークン、暗号化パスワードなどを記載しないでください。</p>
+<p><a href="./">ホームへ戻る</a></p>
+</main>
+</body>
+</html>
